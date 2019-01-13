@@ -62,7 +62,7 @@ let [name = "Guest", surname = "Anonymous"] = ["Julius"];
 console.log(name);    // Julius (from array)
 console.log(surname); // Anonymous (default used)
 
-// runs only prompt for surname
+// runs only prompt for surname works only in UI
  [name = prompt('name?'), surname = 'hello'] = ["Julius"];
 
 console.log(name);    // Julius (from array)
